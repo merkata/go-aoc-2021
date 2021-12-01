@@ -3,7 +3,7 @@ package depthincrease_test
 import (
 	"testing"
 
-	"github.com/merkata/go-aoc-2021/depthincrease"
+	depth "github.com/merkata/go-aoc-2021/day1/depthincrease"
 )
 
 func TestDepthIncrease(t *testing.T) {
@@ -20,7 +20,7 @@ func TestDepthIncrease(t *testing.T) {
 		"263",
 	}
 	want := 7
-	got := depthincrease.MeasureIncrease(input)
+	got := depth.MeasureIncrease(input)
 	if want != got {
 		t.Errorf("failed test, wanted %d got %d\n", want, got)
 	}
