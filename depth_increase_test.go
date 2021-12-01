@@ -3,7 +3,7 @@ package depthincrease_test
 import (
 	"testing"
 
-	"github.com/merkata/go-aoc-2021/day1/depthincrease"
+	"github.com/merkata/go-aoc-2021/depthincrease"
 )
 
 func TestDepthIncrease(t *testing.T) {
